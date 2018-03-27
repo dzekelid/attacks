@@ -15,9 +15,9 @@ x-alexaRank: ""
 tags:
 - Stack Network
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/attacks/master/_listings/aws-shield/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/attacks/master/_listings/aws-shield/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Shield API
@@ -30,7 +30,7 @@ apis:
   tags: Attacks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/attacks/master/_listings/aws-shield/action-listattacks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attacks/master/_listings/aws-shield/action-describeattack-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/waf/latest/APIReference/
