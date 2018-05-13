@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Shield API
+  title: AWS Shield API List Attacks
   version: 1.0.0
+  description: |-
+    Returns all ongoing DDoS attacks or all DDoS attacks during a specified time
+             period.
 schemes:
 - http
 produces:
