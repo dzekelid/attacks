@@ -31,8 +31,10 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attacks/master/_listings/aws-shield/action-listattacks-get.md
-- name: AWS Shield API Describe Attack
-  description: Describes the details of a DDoS attack.
+- name: AWS Shield API List Attacks
+  description: |-
+    Returns all ongoing DDoS attacks or all DDoS attacks during a specified time
+             period.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2016-12-30 at 10.35.48 PM.png
   humanURL: https://aws.amazon.com/shield/
@@ -40,7 +42,7 @@ apis:
   tags: Attacks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attacks/master/_listings/aws-shield/action-describeattack-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attacks/master/_listings/aws-shield/action-listattacks-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/waf/latest/APIReference/
