@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Shield API
+  title: AWS Shield API Describe Attack
   version: 1.0.0
+  description: Describes the details of a DDoS attack.
 schemes:
 - http
 produces:
