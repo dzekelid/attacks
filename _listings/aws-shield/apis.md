@@ -31,7 +31,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attacks/master/_listings/aws-shield/action-listattacks-get.md
+- name: AWS Shield API Describe Attack
+  description: Describes the details of a DDoS attack.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2016-12-30 at 10.35.48 PM.png
+  humanURL: https://aws.amazon.com/shield/
+  baseURL: http:://{host}//
+  tags: Attacks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attacks/master/_listings/aws-shield/action-describeattack-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/waf/latest/APIReference/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/waf/latest/DDOSAPIReference/Welcome.htm
+- type: x-faq
+  url: https://aws.amazon.com/shield/faqs/
+- type: x-pricing
+  url: https://aws.amazon.com/shield/pricing/
+- type: x-website
+  url: https://aws.amazon.com/shield/
 - type: x-documentation
   url: http://docs.aws.amazon.com/waf/latest/APIReference/
 - type: x-documentation
